@@ -1,7 +1,7 @@
 VueMediumEditor
 ===
 
-(Medium Editor)[https://github.com/yabwe/medium-editor] as a (Vue)[https://vuejs.org/] component.
+[Medium Editor](https://github.com/yabwe/medium-editor) as a [Vue](https://vuejs.org/) component.
 
 To use, `require` the module and register it as a Vue `component` with any name you want:
 
