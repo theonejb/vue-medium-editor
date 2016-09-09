@@ -12,6 +12,10 @@ Then in your Vue template, you can use it like this:
 
     <medium-editor :body.sync="curAlbum.description"></medium-editor>
 
+You'll also need to include CSS assets for the Medium Editor package. You can hook it up to your build process, or you can just include them in your HTML like this:
+
+    <link rel="stylesheet" href="node_modules/medium-editor/dist/css/medium-editor.css" media="all">
+    <link rel="stylesheet" href="node_modules/medium-editor/dist/css/themes/default.css" media="all">
 
 ##Props
  - `body`: The string to display in the editor.
