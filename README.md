@@ -10,7 +10,7 @@ To use, `require` the module and register it as a Vue `component` with any name 
 
 Then in your Vue template, you can use it like this:
 
-    <medium-editor :body.sync="curAlbum.description"></medium-editor>
+    <medium-editor :body.sync="blogEntry.description"></medium-editor>
 
 You'll also need to include CSS assets for the Medium Editor package. You can hook it up to your build process, or you can just include them in your HTML like this:
 
