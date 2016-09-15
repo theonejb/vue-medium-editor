@@ -16,10 +16,6 @@ module.exports = (function () {
 
       this.editor = new MediumEditor(this.$el.children[0]);
       this.editor.subscribe("editableInput", editorToDataSync);
-
-      this.$watch("content", function () {
-        this.editor.setContent(this.content);
-      });
     }
   });
 
