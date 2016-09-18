@@ -19,9 +19,3 @@ You'll also need to include CSS assets for the Medium Editor package. You can ho
 
 ##Props
  - `content`: The content to edit.
-
-
-##Events
-`vue-medium-editor` listens for a `data-updated` event. When this event is received, the contents of the Medium Editor are reset to the current value of the `content` property. This is needed the Medium Editor library operates on a copy of the data in a content-editable element, and it can not notice changes in the data.
-
-Thus, if you ever need to modify `content` from your code, you'll need to make sure `vue-medium-editor` receives this event to notice your changes.
